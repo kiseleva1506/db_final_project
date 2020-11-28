@@ -35,7 +35,6 @@ CREATE TABLE animals (
   id int UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Идентификатор строки',
   name varchar(255) NOT NULL COMMENT 'Кличка животного',
   chip varchar(50) NOT NULL COMMENT 'Номер чипа',
-  kind_id tinyint UNSIGNED NOT NULL COMMENT 'Вид животного',
   breed_id smallint UNSIGNED COMMENT 'Порода животного',
   gender_id tinyint UNSIGNED NOT NULL COMMENT 'Пол животного',
   owner_type ENUM('person','organization') COMMENT 'Тип владельца: человек или организация',
